@@ -46,9 +46,57 @@
      #main-navbar .main-reorder {
          transform: scale(0.5);
      }
+     #main-navbar .main-nav>ul>li {
+         height: 100%;
+         text-align: left;
+         padding: 0 15px;
+         display: block;
+         float: none;
+         width: 100%;
+         position: relative;
+     }
+     #main-navbar .main-nav>ul>li.m80 {
+         margin-top: 80px;
+     }
+     #main-navbar .main-nav>ul>li a {
+         line-height: 54px;
+     }
+     #restaurant {
+         background: #ffffff;
+     }
  }
  
  .icon-scroll {
      top: auto;
      bottom: 20px;
+ }
+ 
+ @media (min-width:320px) {
+     /* smartphones, iPhone, portrait 480x320 phones */
+     #main-navbar .main-nav>ul {
+         padding-top: 80px;
+     }
+ }
+ 
+ @media (min-width:481px) {
+     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+ }
+ 
+ @media (min-width:641px) {
+     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+ }
+ 
+ @media (min-width:961px) {
+     /* tablet, landscape iPad, lo-res laptops ands desktops */
+     #main-navbar .main-nav>ul>li.menu1 {
+         margin-left: 140px;
+     }
+ }
+ 
+ @media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */
+ }
+ 
+ @media (min-width:1281px) {
+     /* hi-res laptops and desktops */
  }
