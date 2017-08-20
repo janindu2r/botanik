@@ -17,6 +17,9 @@
      .icon-scroll {
          top: 82%;
      }
+     #main-navbar .main-reorder {
+         transform: scale(0.5);
+     }
  }
  
  @media (min-width: 768px) {
@@ -26,16 +29,22 @@
      .marg_top {
          margin-top: 0vh !important;
      }
+     #main-navbar .main-reorder {
+         transform: scale(0.5);
+     }
  }
  
  @media (max-width: 350px) {
      .pre-content h1 {
          margin-bottom: 8vh !important;
-         margin-top: 40vh !important;
+         margin-top: 35vh !important;
      }
      .pre-content h2 {
          margin-bottom: 8vh !important;
          margin-top: 8vh !important;
+     }
+     #main-navbar .main-reorder {
+         transform: scale(0.5);
      }
  }
  
