@@ -1,0 +1,45 @@
+ /* Author: Janindu Ranawake
+ 19.08.2017 */
+ 
+ @media (max-width: 767px) and (min-width: 351px) {
+     .pre-content h1 {
+         margin-bottom: 8vh !important;
+         margin-top: 40vh !important;
+     }
+     .pre-content h2 {
+         margin-bottom: 8vh !important;
+         margin-top: 8vh !important;
+     }
+     #restaurant {
+         height: 100%;
+         background: #111111;
+     }
+     .icon-scroll {
+         top: 82%;
+     }
+ }
+ 
+ @media (min-width: 768px) {
+     #restaurant .pre-content h1 {
+         margin-top: 35vh;
+     }
+     .marg_top {
+         margin-top: 0vh !important;
+     }
+ }
+ 
+ @media (max-width: 350px) {
+     .pre-content h1 {
+         margin-bottom: 8vh !important;
+         margin-top: 40vh !important;
+     }
+     .pre-content h2 {
+         margin-bottom: 8vh !important;
+         margin-top: 8vh !important;
+     }
+ }
+ 
+ .icon-scroll {
+     top: auto;
+     bottom: 20px;
+ }
