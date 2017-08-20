@@ -7372,7 +7372,8 @@ body.nav-center #main-navbar {
 
 #main-navbar {
     position: fixed;
-    height: 0;
+    /* height: 80px;
+    background: #ffffff; */
     top: 0;
     width: 100%;
     z-index: 100;
@@ -7718,7 +7719,7 @@ body.nav-center #main-navbar {
 
 .logo img {
     max-height: 100%;
-    padding: 24px 0;
+    padding: 8px 0;
 }
 
 .nav-center#main-navbar {
