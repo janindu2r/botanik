@@ -41,7 +41,7 @@
  @media (max-width: 350px) {
      .pre-content h1 {
          margin-bottom: 8vh !important;
-         margin-top: 35vh !important;
+         margin-top: 26vh !important;
      }
      .pre-content h2 {
          margin-bottom: 8vh !important;
@@ -79,32 +79,9 @@
      bottom: 20px;
  }
  
- @media (min-width:320px) {
-     /* smartphones, iPhone, portrait 480x320 phones */
-     /* #main-navbar .main-nav>ul {
-         padding-top: 80px;
-     } */
- }
- 
- @media (min-width:481px) {
-     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
- }
- 
- @media (min-width:641px) {
-     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
- }
- 
  @media (min-width:961px) {
      /* tablet, landscape iPad, lo-res laptops ands desktops */
      #main-navbar .main-nav>ul>li.menu1 {
          margin-left: 140px;
      }
- }
- 
- @media (min-width:1025px) {
-     /* big landscape tablets, laptops, and desktops */
- }
- 
- @media (min-width:1281px) {
-     /* hi-res laptops and desktops */
  }
