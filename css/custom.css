@@ -13499,3 +13499,46 @@ body.nav-center #main-navbar {
   transform: none;
   }
   }*/
+
+
+/* Scroll to top */
+
+.scroll {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    bottom: 20px;
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.scroll:hover {
+    background: rgba(178, 178, 178, 1.0);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.scroll:hover .fa {
+    padding-top: -10px;
+}
+
+.scroll .fa {
+    font-size: 30px;
+    margin-top: -5px;
+    margin-left: 1px;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: #333333;
+}

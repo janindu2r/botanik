@@ -31,7 +31,7 @@ $(document).ready(function() {
 
     $('#fullpage').fullpage({
         verticalCentered: false,
-        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11'],
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11', 'footer'],
         //to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208
         css3: false,
         onLeave: function(index, nextIndex, direction) {
