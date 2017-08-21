@@ -1,15 +1,15 @@
  /* Author: Janindu Ranawake
  19.08.2017 */
  
- @media (max-width: 767px) and (min-width: 351px) {
+ @media (max-width: 767px) {
      .pre-content h1 {
          margin-bottom: 8vh !important;
          margin-top: 40vh !important;
      }
-     .pre-content h2 {
+     /* .pre-content h2 {
          margin-bottom: 8vh !important;
          margin-top: 8vh !important;
-     }
+     } */
      #restaurant {
          height: 100%;
          background: #111111;
@@ -45,7 +45,7 @@
      }
      .pre-content h2 {
          margin-bottom: 8vh !important;
-         margin-top: 8vh !important;
+         margin-top: 24px !important;
      }
      #main-navbar .main-reorder {
          transform: scale(0.5);
