@@ -20,6 +20,10 @@
      #main-navbar .main-reorder {
          transform: scale(0.5);
      }
+     #mobile-nav {
+         position: fixed !important;
+         top: 0;
+     }
  }
  
  @media (min-width: 768px) {
@@ -55,9 +59,13 @@
          width: 100%;
          position: relative;
      }
-     #main-navbar .main-nav>ul>li.m80 {
-         margin-top: 80px;
+     #mobile-nav {
+         position: fixed !important;
+         top: 0;
      }
+     /* #main-navbar .main-nav>ul>li.m80 {
+         margin-top: 80px;
+     } */
      #main-navbar .main-nav>ul>li a {
          line-height: 54px;
      }
@@ -73,9 +81,9 @@
  
  @media (min-width:320px) {
      /* smartphones, iPhone, portrait 480x320 phones */
-     #main-navbar .main-nav>ul {
+     /* #main-navbar .main-nav>ul {
          padding-top: 80px;
-     }
+     } */
  }
  
  @media (min-width:481px) {

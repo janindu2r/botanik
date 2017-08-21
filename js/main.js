@@ -44,6 +44,8 @@ $(document).ready(function() {
         e.preventDefault();
         $('body').velocity("scroll", { duration: 1000 });
     });
+
+    $('#fullpage').css('top', '0px !important');
 });
 
 $(window).load(function() {
