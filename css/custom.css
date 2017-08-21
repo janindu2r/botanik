@@ -13508,7 +13508,7 @@ body.nav-center #main-navbar {
     width: 40px;
     height: 40px;
     right: 20px;
-    bottom: 20px;
+    bottom: 45px;
     background: #fff;
     padding: 10px;
     text-align: center;
@@ -13518,6 +13518,7 @@ body.nav-center #main-navbar {
     -moz-transition: 0.5s;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
+    z-index: 9999;
 }
 
 .scroll:hover {

@@ -24,6 +24,10 @@
          position: fixed !important;
          top: 0;
      }
+     .scroll {
+         right: 20px;
+         bottom: 20px;
+     }
  }
  
  @media (min-width: 768px) {
