@@ -53,3 +53,20 @@ body {
     border-color: #051FBE;
     padding: 0.975rem 0.75rem;
 }
+
+.btn-outline-primary {
+    color: #051FBE;
+    border-color: #051FBE;
+    padding: 0.975rem 0.75rem;
+}
+
+.thanks {
+    margin-top: 15px;
+    color: #051FBE;
+    &-img {
+        margin-top: 100px;
+    }
+    &-desc {
+        color: #051FBE;
+    }
+}
